@@ -1,0 +1,6 @@
+[Service]
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Environment="OLLAMA_HOST=0.0.0.0:11434"
+Environment="OLLAMA_MAX_LOADED_MODELS=5"
+Environment="OLLAMA_NUM_PARALLEL=5"
+Environment="OLLAMA_FLASH_ATTENTION=1"
