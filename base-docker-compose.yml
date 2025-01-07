@@ -11,6 +11,9 @@ services:
       interval: 5s
       timeout: 30s
       retries: 10
+    environment:
+      - OLLAMA_KEEP_ALIVE=24h
+      - OLLAMA_HOST=0.0.0.0
   open-webui:
     image: 'ghcr.io/open-webui/open-webui:main'
     volumes:
