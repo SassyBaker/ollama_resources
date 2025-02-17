@@ -1,3 +1,5 @@
+# Reference "https://github.com/ollama/ollama/issues/703"
+
 # Edit "/etc/systemd/system/ollama.service"
 # Once you’ve made your changes, reload the daemons using the command
 # sudo systemctl daemon-reload ,
