@@ -1,3 +1,9 @@
+# Edit "/etc/systemd/system/ollama.service"
+# or
+# OLLAMA_HOST=0.0.0.0:11434 ollama serve
+# or
+# systemctl edit ollama.service
+
 [Service]
 Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 Environment="OLLAMA_HOST=0.0.0.0:11434"
